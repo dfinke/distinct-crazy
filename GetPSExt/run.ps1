@@ -1,3 +1,4 @@
+"Hello World"
 $(foreach ($target in "vscode-powershell", "powershelleditorservices") {
         foreach ($branch in "master") {
             $url = "https://ci.appveyor.com/api/projects/PowerShell/{0}/branch/{1}" -f $target, $branch
